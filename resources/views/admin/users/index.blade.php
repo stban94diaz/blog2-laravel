@@ -35,7 +35,9 @@
                         @endif
                     </td>
                     <td>
-                        <a href="" class="btn btn-warning">
+                        <a
+                            href="{{ route('users.edit', $user->id) }}"
+                            class="btn btn-warning">
                             <i class="icon-wrench"></i>
                         </a>
                         <a
