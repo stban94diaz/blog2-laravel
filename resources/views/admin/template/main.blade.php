@@ -6,6 +6,13 @@
     <link
       rel="stylesheet"
       href="{{ asset('plugins/bootstrap/css/bootstrap.css')}}">
+    <link
+      rel="stylesheet"
+      href="{{ asset('img/icons/styles.css')}}">
+
+    <!--Icono pagina-->
+    <link rel="shortcut icon" href="{{ asset('img/logo.png')}}">
+
   </head>
   <body>
     <div class="container">

@@ -35,8 +35,15 @@
                         @endif
                     </td>
                     <td>
-                        <a href="" class="btn btn-danger"></a>
-                        <a href="" class="btn btn-warning"></a>
+                        <a href="" class="btn btn-warning">
+                            <i class="icon-wrench"></i>
+                        </a>
+                        <a
+                            onclick="return confirm('¿Seguro que desea eliminar al usuario {{$user->name}}?');"
+                            href="{{ route('users.destroy', $user->id) }}"
+                            class="btn btn-danger">
+                            <i class="icon-delete-garbage-streamline"></i>
+                        </a>
                     </td>
                 </tr>
             @endforeach
