@@ -2,7 +2,7 @@
 
 @section('title', 'Listar Usuarios')
 
-@section('title_body', 'Liistar Usuarios')
+@section('title_body', 'Listar Usuarios')
 
 @section('content')
     <a href="{{ route('users.create') }}" class="btn btn-info">
